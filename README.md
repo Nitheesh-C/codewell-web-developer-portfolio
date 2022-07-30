@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution]()
-- [Live_Site]()
+- [Solution](https://github.com/Nitheesh-C/codewell-web-developer-portfolio)
+- [Live_Site](https://nitheesh-c.github.io/codewell-web-developer-portfolio/)
 
 ## My process
 
