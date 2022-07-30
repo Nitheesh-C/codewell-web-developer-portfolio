@@ -1,0 +1,159 @@
+@media only screen and (max-width:850px) {
+    *{
+        font-size: 15px;
+    }
+    header{
+        position: sticky;
+        display: flex;
+    }
+    header div p a{
+        font-size: 2rem;
+    }
+    header button{
+        display: none;
+    }
+    #menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    nav{
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 0;
+        top: 0;
+        right: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 10px;
+    }
+    nav ul{
+        margin: 5rem 5rem 0 1rem;
+        display: block;
+    }
+    nav ul li{
+        padding:15px 0;
+        font-size: 1.5rem;
+    }
+    .companies-logos{
+        justify-content: space-evenly;
+    }
+    .companies-logos img{
+        width: 8rem;
+    }
+    .created-website{
+        flex-direction: column;
+    }
+    .created-website .cw-div{
+        width: 100%;
+        margin: 3% 0;
+    }
+    .cw-div div:last-child h2{
+        font-size: 2rem;
+    }
+    .cw-div div:last-child p{
+        margin: 20px 0;
+        line-height: 1.5;
+        font-size: 1.5rem;
+    }
+
+    /* achivements */
+    .achivements{
+        flex-direction: column;
+    }
+    .achivements h2{
+        font-size: 2.5rem;
+    }
+    .achivements div:first-child p{
+        margin: 20px 0;
+        font-size: 1.5rem;
+    }
+    .achivements div:last-child p{
+        margin:  0 0 20px 0;
+        font-size: 1.5rem;
+    }
+    .achivements div:last-child{
+        margin-top: 5%;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .get-in-touch h2{
+        font-size: 2.5rem;
+    }
+    .get-in-touch p{
+        font-size: 1.5rem;
+    }
+    .social-contact img{
+        width: 35px;
+    }
+}
+@media only screen and (max-width:750px) {
+    header div p a{
+        font-size: 16px
+    }
+    .bar{
+        margin: 2px 0;
+        display: inline-block;
+        width: 40px;
+        height: 4px;
+    }
+    .introduction h1{
+        font-size: 25px;
+    }
+    .introduction p{
+        font-size: 15px;
+    }
+    .companies-logos img{
+        width: 5rem;
+    }
+    .cw-div div:last-child h2{
+        font-size: 1.5rem;
+    }
+    .cw-div div:last-child p{
+        font-size: 1rem;
+    }
+    .achivements h2{
+        font-size: 1.5rem;
+    }
+    .achivements div:first-child p{
+        font-size: 1rem;
+    }
+    .achivements div:last-child p{
+        font-size: 1rem;
+    }
+    .get-in-touch{
+        width: 100%;
+    }
+    .get-in-touch h2{
+        font-size: 1.5rem;
+    }
+    .get-in-touch p{
+        margin-top: 20px;
+        font-size: 1rem;
+    }
+    .social-contact img{
+        width: 25px;
+    }
+    .get-in-touch button{
+        padding: 5px 7px;
+        font-size: 1rem;
+    }
+    .social-contact p{
+        font-size: 0.7rem;
+    }
+}
+
+
+@media only screen and (min-width:1000px) {
+    .introduction{
+        max-width: 80%;
+    }
+}
+@media only screen and (min-width:1100px) {
+    .introduction{
+        max-width: 70%;
+    }
+}
