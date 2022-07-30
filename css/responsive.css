@@ -66,11 +66,16 @@
     .achivements h2{
         font-size: 2.5rem;
     }
+    .achivements div:first-child{
+        margin-right: 0;
+    }
     .achivements div:first-child p{
+        width: 100%;
         margin: 20px 0;
         font-size: 1.5rem;
     }
     .achivements div:last-child p{
+        width: 100%;
         margin:  0 0 20px 0;
         font-size: 1.5rem;
     }
