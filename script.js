@@ -24,6 +24,7 @@ menu.addEventListener('click', () => {
     active = !active;
 })
 document.addEventListener('click', (ele) => {
+    console.log();
     if(ele.target!=menu && ele.target!=bar1 && ele.target!=bar2 && ele.target!=bar3 && active==true){
         bar1.style = 'animation: mergeline1-rev .5s forwards;'
         bar2.style =' opacity: 0;animation: disappear-rev .5s .5s forwards;'
